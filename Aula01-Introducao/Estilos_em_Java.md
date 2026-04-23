@@ -2,28 +2,26 @@
 
 ---
 
-## 🧠 Uso de camelCase e PascalCase
+## ☑️ Uso de camelCase e PascalCase
 
-Java segue convenções de nomenclatura que ajudam na leitura e organização do código.
+Java segue convenções de nomenclatura que ajudam na leitura e organização do código. É usado o padrão camelCase para variáveis e métodos. Por exemplo
 
-### 🐪 camelCase (variáveis e métodos)
-
-Exemplos:
-
+** 🐪 camelCase **
 - marcaCaminhao  
 - capacidadeBritaderia  
 - velocidadeMaxima  
 
----
+Já para classe é usado o padrão PascalCase
 
-### 🔺 PascalCase (classes)
+** 🔺PascalCase **
 
 - Caminhao  
 - Escavadeira  
 - OperadorBritadeira  
 - SistemaMina  
 
----
+Na elaboração de um programa use nomes que sejam totalmente descritivos e tenham relação direta com o contexto do programa elaborado e por tanto evite nomes genéricos, por exemplo
+
 
 ### ⚠️ Boas práticas
 
@@ -37,12 +35,10 @@ Use nomes descritivos e relacionados ao contexto.
 
 ---
 
-## 🧱 Uso de colchetes, chaves e parênteses
+## ☑️ Uso de colchetes, chaves e parênteses
 
 Deve-se fazer uso correto dos símbolos ( ), { } e [ ]. Estes não são apenas detalhes de sintaxe, sendo que definem a estrutura, organização e funcionamento do programa.
 
-
----
 
 ## 🔹 Os parênteses são usados principalmente para:
 
