@@ -49,3 +49,19 @@ Os símbolos `( )`, `{ }` e `[ ]` são fundamentais em Java. Eles definem a estr
 
 ```java
 System.out.println("Exemplo mineração");
+```
+e, mesmo quando não há parâmetros, os parênteses são obrigatórios:
+
+```java
+metodo();
+```
+
+🏃‍♂️ Definição de métodos
+
+Na declaração de métodos, os parênteses indicam os parâmetros:
+
+```java
+void carregarCaminhao(int quantidade)
+```
+
+
