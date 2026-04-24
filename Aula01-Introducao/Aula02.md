@@ -19,4 +19,28 @@ public class Caminhao {
 }
 ```
 
-**1. No ambiente de desenvolvimento, escreva este código e compile para identificar 
+inicialmente vamos focar na lógica do programa que no caso anterior é 
+
+```java
+System.out.println("Vamos arrumar a nossa mina");
+```
+
+A sintaxe da classe posterioremente estaremos aprendedo na medida das explicações e uso. Inicialmente esta será usada de forma padrão como
+
+```java
+public class Caminhao {
+    public static void main(String[] args){
+
+   //AQUI COLOCAREMOS O NOSSO CÓDIGO
+      
+    }
+
+}
+```
+
+
+⚠️ Desabilite a função autocompleta
+
+
+**1. No ambiente de desenvolvimento, escreva este código, compile e execute o programa**
+
