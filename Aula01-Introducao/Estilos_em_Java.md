@@ -116,6 +116,19 @@ Toda e qualquer informação que fica dentro das chaves pertence à estrutura de
 
 ⚠️ Como recomendação de boa prática de programação, sempre deve-se usar chaves, mesmo quando não seja obrigatório
 
+| ❌ Evite usar | ✅ Melhor use |
+|--------------|-------------|
+| ```java
+if (condicao)
+    executar();
+``` | ```java
+if (condicao) {
+    executar();
+}
+``` |
+
+O anterior evita erros no futuro, posto que se o código dentro da condição aumenta, não haverá erro de compilação. 
+
 
 
 
