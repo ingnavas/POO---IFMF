@@ -89,6 +89,7 @@ As chaves são usadas para definir blocos de código, agrupando instruções que
 
 ```java
 public class Caminhao {
+   // código da classe aqui
 }
 ```
 
@@ -114,7 +115,7 @@ if (condicao) {
 
 Toda e qualquer informação que fica dentro das chaves pertence à estrutura de controle
 
-⚠️ Como recomendação de boa prática de programação, sempre deve-se usar chaves, mesmo quando não seja obrigatório
+⚠️ Como recomendação de boa prática de programação sempre devem-se usar chaves, mesmo quando não seja obrigatório
 
 | ❌ Evite usar | ✅ Melhor use |
 |--------------|-------------|
@@ -141,10 +142,12 @@ aberturaBritadeira[0];
 aberturaBritadeira[1];
 ```
 
-Os símbolos *( )*, *{ }* e *[ ]* são essenciais para estruturar programas em Java. Eles definem:
+Os símbolos **( )**, **{ }** e **[ ]** são essenciais para estruturar programas em Java. Eles definem:
 
 **como métodos são chamados e definidos**
+
 **como blocos de código são organizados**
+
 **como coleções de dados são manipuladas**
 
 Desta forma, ⚠️ erros nesses símbolos podem causar falhas no programa ou comportamentos inesperados e, por tanto, dominar o uso correto deles é um passo fundamental para escrever código claro, organizado e funcional!
