@@ -118,14 +118,11 @@ Toda e qualquer informação que fica dentro das chaves pertence à estrutura de
 
 | ❌ Evite usar | ✅ Melhor use |
 |--------------|-------------|
-| ```java
-if (condicao)
+|if (condicao)
     executar();
-``` | ```java
-if (condicao) {
+    |if (condicao) {
     executar();
-}
-``` |
+}|
 
 O anterior evita erros no futuro, posto que se o código dentro da condição aumenta, não haverá erro de compilação. 
 
