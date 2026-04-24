@@ -104,7 +104,7 @@ void carregar() {
 
 Toda e qualquer informação que fica dentro das chaves pertence ao método.
 
-**3. ➿Estruturas de controle
+**3. ➿Estruturas de controle**
 
 ```java
 if (condicao) {
@@ -129,14 +129,18 @@ Os colchetes são usados principalmente para trabalhar com arrays (vetores).
 Declaração de arrays (os arrays devem ter elementos do mesmo tipo)
 
 **1. 🔰 Inicialização**
+
 ```java
 int[] aberturaBritadeira= {20, 40, 60, 75};
 ```
-**2. 🚪 Acesso a elementos (nos arrays para o acesso de elementos o índice começa em zero)
+
+**2. 🚪 Acesso a elementos (nos arrays para o acesso de elementos o índice começa em zero)**
+
 ```java
 aberturaBritadeira[0];
 aberturaBritadeira[1];
 ```
+
 Os símbolos *( )*, *{ }* e *[ ]* são essenciais para estruturar programas em Java. Eles definem:
 
 **como métodos são chamados e definidos**
@@ -145,6 +149,45 @@ Os símbolos *( )*, *{ }* e *[ ]* são essenciais para estruturar programas em J
 
 Desta forma, ⚠️ erros nesses símbolos podem causar falhas no programa ou comportamentos inesperados e, por tanto, dominar o uso correto deles é um passo fundamental para escrever código claro, organizado e funcional!
 
+---
+
+## ☑️ Tipos Primitivos
+
+Variáveis do tipo primitivo no Java são aquelas variáveis cujo valor que elas guardam é o real conteúdo da variável. Neste caso, quando for usado o operador de atribuição *=* o valor real da variável será o valor copiado. A tabela na sequência apresenta os tipos primitivos possíveis no Java.
+
+| Tipo    | Descrição                          | Exemplo            | Tamanho |
+|--------|----------------------------------|--------------------|--------|
+| boolean | Verdadeiro ou Falso              | true, false        | ~1 bit |
+| byte    | Número inteiro pequeno           | 10, -5             | 1 byte |
+| short   | Número inteiro médio             | 1000, -2000        | 2 bytes |
+| char    | Caractere Unicode                | 'A', 'c'           | 2 bytes |
+| int     | Número inteiro                   | 10, 20             | 4 bytes |
+| float   | Número decimal (precisão simples)| 3.14f, 2.5f        | 4 bytes |
+| long    | Número inteiro grande            | 100000L            | 8 bytes |
+| double  | Número decimal (precisão dupla)  | 3.14, 22.998       | 8 bytes |
+
+Na boa prática de programação, use *int* como padrão para inteiro e *double* como padrão para decimal.
+
+**1. 🟰 Declaração de uma variável**
+
+A ação de declarar uma variável no Java implica definir seu tipo, o seu nome y de forma opcional inicializar o seu valor .
+
+**tipo nome;**
+
+ou
+
+**tipo nome = valor;**
+
+Por exemplo,
+
+```java
+int capacidade = 100;
+double velocidade = 45.5;
+boolean ligado = true;
+char tipo = 'A’;
+```
+
+Nas boas práticas de programação devemos declarar uma variável por linha e inicializar seu valor sempre que for possível. 
 
 
 
