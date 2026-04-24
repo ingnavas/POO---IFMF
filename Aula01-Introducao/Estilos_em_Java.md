@@ -192,10 +192,35 @@ char tipo = 'A’;
 
 Nas boas práticas de programação devemos declarar uma variável por linha e inicializar seu valor sempre que for possível. 
 
+---
+☑️ String
 
+Em Java, *String* não é do tipo primitivo, é uma classe. Mesmo assim é usada o tempo tudo
 
+Por ser uma classe, como vai ser visto posteriormente, deve ser declarada como 
 
+```java
+String nome = new String("Caminhão fora de estrada 01");
+```
 
+porém ela é considerada um caso especial em função de seu uso contínuo e pode ser declarada de forma similar a um tipo primitivo, por exemplo:
+
+```java
+String nome = "Caminhão fora de estrada 01 "; 
+```
+
+ou até ser declarada sem ser inicializada
+
+```java
+String nome;  
+```
+ e ser inicializada depois.
+ 
+```java
+String nome;
+//...outro trecho de código...
+nome = "Caminhão fora de estrada 01"; 
+```
 
 
 
