@@ -122,6 +122,31 @@ Toda e qualquer informação que fica dentro das chaves pertence à estrutura de
 
 O anterior evita erros no futuro, posto que se o código dentro da condição aumenta, não haverá erro de compilação. 
 
+---
+
+Os colchetes são usados principalmente para trabalhar com arrays (vetores).
+
+Declaração de arrays (os arrays devem ter elementos do mesmo tipo)
+
+**1. 🔰 Inicialização**
+```java
+int[] aberturaBritadeira= {20, 40, 60, 75};
+```
+**2. 🚪 Acesso a elementos (nos arrays para o acesso de elementos o índice começa em zero)
+```java
+aberturaBritadeira[0];
+aberturaBritadeira[1];
+```
+Os símbolos *( )*, *{ }* e *[ ]* são essenciais para estruturar programas em Java. Eles definem:
+
+**como métodos são chamados e definidos**
+**como blocos de código são organizados**
+**como coleções de dados são manipuladas**
+
+Desta forma, ⚠️ erros nesses símbolos podem causar falhas no programa ou comportamentos inesperados e, por tanto, dominar o uso correto deles é um passo fundamental para escrever código claro, organizado e funcional!
+
+
+
 
 
 
