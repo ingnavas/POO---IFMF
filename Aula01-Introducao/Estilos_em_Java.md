@@ -118,11 +118,7 @@ Toda e qualquer informação que fica dentro das chaves pertence à estrutura de
 
 | ❌ Evite usar | ✅ Melhor use |
 |--------------|-------------|
-|if (condicao)
-    executar();
-    |if (condicao) {
-    executar();
-}|
+| if (condicao)<br>executar(); | if (condicao) {<br>executar();<br>} |
 
 O anterior evita erros no futuro, posto que se o código dentro da condição aumenta, não haverá erro de compilação. 
 
