@@ -119,6 +119,16 @@ Os Loops permitem automatizar tarefas repetitivas, como:
 
 Usado quando você sabe quantas vezes quer repetir. Ex: percorrer um array, contar de 1 a 10
 
+```Java
+for (inicializacao; condicao; incremento) {
+    // bloco de código
+}
+```
+
+- Inicializacao: executa uma vez (ex: int i = 0)
+- Condicao: enquanto for verdadeira, continua
+- Incremento: atualização a cada repetição (ex: i++)
+
 <details>
  
   <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
@@ -143,6 +153,14 @@ public class Ciclos {
 
 Usado quando a repetição depende de uma condição. Repete enquanto a condição for verdadeira
 
+```java
+while (condicao) {
+    // bloco de código
+}
+```
+- Testa a condição antes de executar
+- Pode não executar nenhuma vez
+
 <details>
  
   <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
@@ -166,6 +184,15 @@ public class Ciclos {
 *3. do-while*
 
 Parecido com o while, mas executa pelo menos uma vez, mesmo que a condição seja falsa.
+
+```java
+do {
+    // bloco de código
+} while (condicao);
+```
+- Executa primeiro
+- Testa a condição depois
+- Sempre executa pelo menos uma vez
 
 <details>
  
