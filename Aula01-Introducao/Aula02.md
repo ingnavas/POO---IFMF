@@ -119,13 +119,73 @@ Os Loops permitem automatizar tarefas repetitivas, como:
 
 Usado quando você sabe quantas vezes quer repetir. Ex: percorrer um array, contar de 1 a 10
 
+<details>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
+ 
+```java
+public class Ciclos {
+    public static void main(String[] args){
+        
+        int[] cargas = {50, 60, 70};
+
+        for (int i = 0; i < cargas.length; i++) {
+            System.out.println("Carga do caminhão " + i + ": " + cargas[i]);
+        }
+
+    }
+}
+```
+
+</details> 
+
 *2. while*
 
 Usado quando a repetição depende de uma condição. Repete enquanto a condição for verdadeira
 
+<details>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
+ 
+```java
+public class Ciclos {
+    public static void main(String[] args){
+       int cargaAtual = 0;
+        while (cargaAtual < 100) {
+            cargaAtual += 20;
+            System.out.println("Carregando... " + cargaAtual);
+        }
+
+    }
+}
+
+```
+
+</details> 
+
 *3. do-while*
 
 Parecido com o while, mas executa pelo menos uma vez, mesmo que a condição seja falsa.
+
+<details>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
+ 
+```java
+public class Ciclos {
+    public static void main(String[] args){
+        int tentativas = 0;
+
+        do {
+            System.out.println("Tentando ligar a britadeira...");
+            tentativas++;
+        } while (tentativas < 3);
+
+    }
+}
+```
+
+</details> 
 
 
 
