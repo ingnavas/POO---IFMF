@@ -264,6 +264,7 @@ Operadores são símbolos que permitem realizar operações sobre valores e vari
 
 \- (negação), ! (negação lógica)
 
+Resumindo,
 
 | Tipo de operador            | Operadores                |
 |----------------------------|---------------------------|
@@ -275,5 +276,5 @@ Operadores são símbolos que permitem realizar operações sobre valores e vari
 | “ou” lógico                | \|\|                      |
 | Atribuição                 | =                         |
 
-Em resumo, operadores são as ferramentas que fazem o programa pensar e calcular
+
 
