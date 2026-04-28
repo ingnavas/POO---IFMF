@@ -55,7 +55,7 @@ Em cada caso avalie o erro obtido no terminal.
 
 Realize uma definição de programa que contenha
 
-- Uma variável que indique a capacidade de carga por ciclo das escavadeiras A e B;
+- Uma variável que indique a capacidade de carga por ciclo das escavadeiras A e B, sendo uma *inteiro* e outra *double*;
 - Uma variável que indique a identificação das escavadeira A e B como un texto con tres letras e tres numeros;
 - Uma variável que indique o tempo de carregamento das escavadeiras a e B;
 - Uma variável que defina o status da escavadeira que pode ser: Desligada, Partindo (startup), Operando, em manutenção;
@@ -69,16 +69,18 @@ Realize uma definição de programa que contenha
 public class Caminhao {
     public static void main(String[] args){
         System.out.println("Vamos arrumar a nossa mina"); 
-        int     capacidadeCarga     = 100;
+        int     capacidadeCargaEscavadeiraA     = 100;
+        double  capacidadeCargaEscavadeiraB     = 100;
         String  idFlotaMina         = "MOP-212";
         int     tempoCarregamento   = 23;
-        System.out.println("A capacidade de carga da escavadeira é:"+capacidadeCarga+" tonelas");
+        System.out.println("A capacidade de carga da escavadeira é:"+capacidadeCargaEscavadeiraA+" toneladas");
+        System.out.println("A capacidade de carga da escavadeira é:"+capacidadeCargaEscavadeiraB+" toneladas");
         System.out.println("A identificação da escavadeira é:"+ idFlotaMina);
         System.out.println("O tempo para carga da escavadeira é:"+ tempoCarregamento+ " min");
+        double cargaTotal= capacidadeCargaEscavadeiraA+capacidadeCargaEscavadeiraB;
+        System.out.println("A capacidade de carga da planta é:"+cargaTotal+" toneladas");
     }
 ```
-
-[![volver](https://img.shields.io/badge/⏪-volver-blue?labelColor=white&color=blue)](#previa)
 </details> 
 
 
