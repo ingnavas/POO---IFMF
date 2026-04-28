@@ -348,6 +348,8 @@ O break interrompe o switch após executar um caso. Sem break, ocorre o chamado 
 
 ### 🧔 Exercícios
 
+---
+
 *Exercício 1*
 
 Crie um programa que represente um caminhão com as seguintes informações:
@@ -358,6 +360,7 @@ Crie um programa que represente um caminhão com as seguintes informações:
 - Se está operando ou está parado (boolean)
 - Imprima todas las informaciones del caminhão
 
+---
 
 *Exercício 2*
 
@@ -381,6 +384,7 @@ Crie um sistema de status para uma britadeira
 - Use switch para mostrar o status
 - Se estiver operando mostre uma mensagem que indique “Produção ativa” ou no caso contrário “Parada”
 
+---
 
 *Exercício 4*
 
@@ -390,6 +394,7 @@ Simule o carregamento de um caminhão:
 - A cada ciclo carrega 5 toneladas
 - Use um loop para mostrar o carregamento até atingir a capacidade e que exiba: "Carregando: 5" e depois "Carregando: 10" ... e ao final "Caminhão carregado!"
 
+---
 
 
 
