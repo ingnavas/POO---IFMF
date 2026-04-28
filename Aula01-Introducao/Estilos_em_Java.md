@@ -246,6 +246,7 @@ Operadores são símbolos que permitem realizar operações sobre valores e vari
 
 *1. Aritméticos: fazem cálculos*
 \+ - * / %
+
 *2. Relacionais (comparação): comparam valores e retornam verdadeiro ou falso*
 \== != > < >= <=
 
