@@ -245,18 +245,23 @@ null, false, true
 Operadores são símbolos que permitem realizar operações sobre valores e variáveis, como cálculos, comparações e decisões no programa.
 
 *1. Aritméticos: fazem cálculos*
+
 \+ - * / %
 
 *2. Relacionais (comparação): comparam valores e retornam verdadeiro ou falso*
+
 \== != > < >= <=
 
 *3. Lógicos: combinam condições*
+
 && (e), || (ou), ! (negação)
 
 *4. Atribuição: atribuem valores*
+
 \=
 
 *5. Unários: atuam sobre um único valor*
+
 \- (negação), ! (negação lógica)
 
 
