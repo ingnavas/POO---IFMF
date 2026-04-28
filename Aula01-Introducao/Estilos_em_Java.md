@@ -254,7 +254,7 @@ Operadores são símbolos que permitem realizar operações sobre valores e vari
 && (e), || (ou), ! (negação)
 
 *4. Atribuição: atribuem valores*
-=
+\=
 
 *5. Unários: atuam sobre um único valor*
 \- (negação), ! (negação lógica)
