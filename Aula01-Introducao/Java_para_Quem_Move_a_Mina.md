@@ -346,6 +346,49 @@ switch (status) {
 ⚠️ Precaução com a obrigatoriedade do  *break*
 O break interrompe o switch após executar um caso. Sem break, ocorre o chamado *fall-through*, ou seja, os próximos casos também serão executados.
 
+### 🧔 Exercícios
+
+*Exercício 1*
+
+Crie um programa que represente um caminhão com as seguintes informações:
+
+- Nome do equipamento (String)
+- Capacidade de carga (int)
+- Velocidade média (double)
+- Se está operando ou está parado (boolean)
+- Imprima todas las informaciones del caminhão
+
+
+*Exercício 2*
+
+Um caminhão fez três viagens com as seguintes cargas:
+
+50 toneladas
+70 toneladas
+80 toneladas
+
+Calcule:
+
+- Total de carga transportada
+- Média de carga por viagem
+- Se a média é maior que 60 (use operador lógico) imprima "Meta cumplida"
+
+*Exercício 3 — Estruturas de decisão*
+Crie um sistema de status para uma britadeira
+
+- Deve ter os status: Desligada / Operando / Manutenção
+- Use switch para mostrar o status
+- Se estiver operando mostre uma mensagem que indique “Produção ativa” ou no caso contrário “Parada”
+
+
+*Exercício 4*
+
+Simule o carregamento de um caminhão:
+
+- Capacidade máxima: 100 toneladas
+- A cada ciclo carrega 5 toneladas
+- Use um loop para mostrar o carregamento até atingir a capacidade e que exiba: "Carregando: 5" e depois "Carregando: 10" ... e ao final "Caminhão carregado!"
+
 
 
 
