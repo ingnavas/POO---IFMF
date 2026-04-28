@@ -373,7 +373,8 @@ Calcule:
 - Média de carga por viagem
 - Se a média é maior que 60 (use operador lógico) imprima "Meta cumplida"
 
-*Exercício 3 — Estruturas de decisão*
+*Exercício 3*
+
 Crie um sistema de status para uma britadeira
 
 - Deve ter os status: Desligada / Operando / Manutenção
