@@ -1,5 +1,4 @@
-## LISTA DE EXERCÍCIOS 
-### AULA 02 - JAVA
+## AULA 02 - JAVA
 
 ---
 **☕ Java é considerada uma linguagem compilada porque o código fonte (.java) é transformado antes de executar.
@@ -37,6 +36,13 @@ public class Caminhao {
 
 }
 ```
+
+Forçe alguns erros de sintaxe para verificar as informações que programa retorna
+- Elimine o ";"
+- Elimine o "void" na declaração da classe
+- Use a palavra "String" no plural, isto é "Strings", em cada caso avalie o erro obtido
+
+
 
 
 ⚠️ Desabilite a função autocompleta
