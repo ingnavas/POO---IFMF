@@ -221,6 +221,54 @@ String nome;
 //...outro trecho de código...
 nome = "Caminhão fora de estrada 01"; 
 ```
+---
+
+## ㊙️ PALAVRAS RESERVADAS
+
+Java tem um conjunto fixo de palavras-chave, mas ele evolui com novas versões
+
+byte - short - int - long - char - boolean - double - float  
+public - private - protected - static - abstract - final - strictfp - transient  
+synchronized - native - void - class - interface - implements - extends  
+if - else - do - default - switch - case - break - continue  
+assert - const - goto - throws - throw - new - catch - try - finally - return  
+this - package - import - instanceof - while - for - volatile - super  
+enum - var - record - sealed - permits - yield - non-sealed
+
+e existem três literais reservados especiais que são:
+null, false, true
+
+---
+
+## 🧮 OPERADORES RELACIONAIS E LÓGICOS
+
+Operadores são símbolos que permitem realizar operações sobre valores e variáveis, como cálculos, comparações e decisões no programa.
+
+*1. Aritméticos: fazem cálculos*
++ - * / %
+    * 
+*2. Relacionais (comparação): comparam valores e retornam verdadeiro ou falso*
+== != > < >= <=
+
+*3. Lógicos: combinam condições*
+&& (e), || (ou), ! (negação)
+
+*4. Atribuição: atribuem valores*
+=
+
+*5. Unários: atuam sobre um único valor*
+- (negação), ! (negação lógica)
 
 
+| Tipo de operador            | Operadores                |
+|----------------------------|---------------------------|
+| Operadores unários         | -  !                      |
+| Operadores multiplicativos | *  /  %                   |
+| Operadores aditivos        | +  -                      |
+| Operadores de comparação   | ==  !=  >  <  >=  <=      |
+| “e” lógico                 | &&                        |
+| “ou” lógico                | \|\|                      |
+| Atribuição                 | =                         |
+
+Em resumo, operadores são as ferramentas que fazem o programa pensar e calcular
 
