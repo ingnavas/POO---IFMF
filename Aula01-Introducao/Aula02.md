@@ -214,7 +214,137 @@ public class Ciclos {
 
 </details> 
 
+---
 
+### ➰ Estruturas de decisão
+
+As estruturas de decisão são mecanismos que permitem ao programa tomar decisões durante sua execução. Com base em condições (verdadeiras ou falsas), o código pode seguir diferentes caminhos, executando apenas as instruções apropriadas para cada situação. Essas estruturas são fundamentais para tornar os programas dinâmicos e adaptáveis a diferentes cenários. Entre as principais estão o if, if-else, if-else if e o switch, cada uma indicada para tipos específicos de decisão
+
+*1. if
+
+Executa o bloco somente se a condição for verdadeira
+
+```java
+if (condicao) {
+    // bloco de código
+}
+```
+<details>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
+ 
+```java
+if (carga > 100) {
+    System.out.println("Caminhão carregado");
+}
+```
+
+</details> 
+
+*2. if - else
+
+Escolhe entre dois caminhos
+
+```java
+if (condicao) {
+    // verdadeiro
+} else {
+    // falso
+}
+```
+<details>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
+ 
+```java
+boolean operando = false;
+
+if (operando) {
+    System.out.println("Britadeira em operação");
+} else {
+    System.out.println("Britadeira parada");
+}
+```
+
+</details> 
+
+*3. if - else if - else
+
+Permite várias condições em sequência
+
+```java
+if (condicao1) {
+    // bloco 1
+} else if (condicao2) {
+    // bloco 2
+} else {
+    // nenhum caso anterior
+}
+```
+<details>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
+ 
+```java
+int carga = 70;
+
+if (carga < 50) {
+    System.out.println("Carga baixa");
+} else if (carga < 100) {
+    System.out.println("Carga média");
+} else {
+    System.out.println("Carga alta");
+}
+```
+
+</details> 
+
+*4. switch-case
+
+Compara o valor de uma variável com várias opções possíveis e executar o bloco correspondente.
+
+
+```java
+switch (variavel) {
+    case valor1:
+        // código
+        break;
+    case valor2:
+        // código
+        break;
+    default:
+        // padrão
+}
+```
+- switch → avalia uma variável
+- case → compara valores
+- break → evita executar os próximos casos
+- default → executa se nenhum caso for atendido
+
+<details>
+ 
+  <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
+ 
+```java
+switch (status) {
+    case 1:
+        System.out.println("Desligada");
+        break;
+    case 2:
+        System.out.println("Operando");
+        break;
+    case 3:
+        System.out.println("Em manutenção");
+        break;
+    default:
+        System.out.println("Status desconhecido");
+}
+```
+
+</details> 
+
+⚠️ Precaução com a obrigatoriedade do  *break*
+O break interrompe o switch após executar um caso. Sem break, ocorre o chamado *fall-through*, ou seja, os próximos casos também serão executados.
 
 
 
