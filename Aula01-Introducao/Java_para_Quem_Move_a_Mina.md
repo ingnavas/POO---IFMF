@@ -1,4 +1,4 @@
-## AULA 02 - JAVA
+## JAVA 
 
 ---
 **☕ Java é considerada uma linguagem compilada porque o código fonte (.java) é transformado antes de executar.
