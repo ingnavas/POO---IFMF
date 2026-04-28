@@ -61,6 +61,8 @@ Realize uma definição de programa que contenha
 - Uma variável que defina o status da escavadeira que pode ser: Desligada, Partindo (startup), Operando, em manutenção;
 - Imprima os resultados na tela, use texto antes de cada valor.
 
+Faça algumas alterações para gerar erros de forma proposital e verique os erros gerados. 
+
 <details>
  
   <summary><b>🔽Ver código / 🔼 Ocultar código</b></summary>
@@ -101,6 +103,32 @@ public class Veiculo {
 }  
 ```
 </details> 
+
+---
+
+### ➰ Loops de controle
+
+Os ciclos de controle (loops) são usados para repetir um bloco de código várias vezes, evitando repetição manual. 
+Os Loops permitem automatizar tarefas repetitivas, como:
+
+- Processar listas
+- Simular operações (ex: ciclos de uma máquina)
+- Validar dados
+
+*1. for*
+
+Usado quando você sabe quantas vezes quer repetir. Ex: percorrer um array, contar de 1 a 10
+
+*2. while*
+
+Usado quando a repetição depende de uma condição. Repete enquanto a condição for verdadeira
+
+*3. do-while*
+
+Parecido com o while, mas executa pelo menos uma vez, mesmo que a condição seja falsa.
+
+
+
 
 
 
