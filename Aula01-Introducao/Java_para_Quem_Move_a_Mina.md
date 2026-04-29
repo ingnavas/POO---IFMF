@@ -397,5 +397,113 @@ Simule o carregamento de um caminhão:
 ---
 
 
+### ↪️ Entradas de dados
+
+Para entrar com dados em Java (leitura) é usada a classe Scanner. O passo inicial é a importação do pacote java.util (pacote: conjunto de diretórios (classes) que são disponibilizados a partir da importação).
+Como em Java os dados de entrada são recebidos como um conjunto de caracteres, estes deverão ser convertidos através de funções de conversão de tipos. A seguir, a tabela apresenta algumas dessas funções
+
+| Função        | Finalidade                                                         |
+|--------------|---------------------------------------------------------------------|
+| next()       | Dado de entrada do tipo String formado por uma palavra              |
+| nextLine()   | Dado de entrada do tipo String formado por uma ou várias palavras   |
+| nextInt()    | Dado de entrada do tipo inteiro                                     |
+| nextByte()   | Dado de entrada do tipo inteiro                                     |
+| nextLong()   | Dado de entrada do tipo inteiro                                     |
+| nextFloat()  | Dado de entrada do tipo decimal                                     |
+| nextDouble() | Dado de entrada do tipo decimal                                     |
+
+Portanto, siga os seguintes passos:
+- Importe o pacote java.util;
+- Instancie um objeto da classe Scanner para receber as entradas de dados;
+
+```java
+  Scanner entrada = new Scanner(System.in);
+```
+
+- Defina (declare) as variáveis;
+
+```java
+int idade;
+```
+
+- Faza a leitura dos dados;
+
+```java
+System.out.print("Entre com a identificação da escavadeira");
+ idade = entrada.nextInt();
+```
+
+O exemplo completo é:
+
+```java
+import java.util.*;
+public class EntradaDados {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        String nomeEscavadeira;
+        int capacidadeEscavadeira;
+        System.out.print("Entre com a identificação da escavadeira: ");
+        nomeEscavadeira = entrada.nextLine();
+        System.out.print("Entre com a capacidade de carga por ciclo: ");
+        capacidadeEscavadeira = entrada.nextInt();
+        System.out.print("Escavadeira " + nomeEscavadeira + " com capacidade no ciclo de "+ capacidadeEscavadeira + " toneladas" );
+        entrada.close();
+    }
+}
+```
+
+⚠️ Intente rodar o código com a alteração:
+
+```java
+import java.util.*;
+public class EntradaDados {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        String nomeEscavadeira;
+        int capacidadeEscavadeira;
+        System.out.print("Entre com a capacidade de carga por ciclo: ");
+        capacidadeEscavadeira = entrada.nextInt();       
+        System.out.print("Entre com a identificação da escavadeira: ");
+        nomeEscavadeira = entrada.nextLine();
+
+        System.out.print("Escavadeira " + nomeEscavadeira + " com capacidade no ciclo de "+ capacidadeEscavadeira + " toneladas" );
+        entrada.close();
+    }
+}
+```
+Interprete o resultado
+
+<details>
+ 
+  <summary><b>🔽Ver resposta / 🔼 Ocultar resposta</b></summary>
+  
+
+  Ao chamar o nextInt() e dar um enter no final, ele consome o número, mas não o enter ficando pendente, assim depois ao chamar o nextLine() ele consome o enter  que sobrou e retorna como vazio.
+
+  Assim, sempre que use 
+ 
+```java
+nextInt()
+nextByte()
+nextLong()
+nextFloat()
+nextDouble()
+```
+
+antes de um nextLine(), faça:
+
+```java
+entrada.nextLine();
+```
+
+para consumir o *enter* residual
+
+
+</details> 
+
+
+
+
+
 
 
