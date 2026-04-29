@@ -34,7 +34,7 @@ Baixe o instalador no site da [Oracle] (https://www.oracle.com/java/technologies
 
 Execute o .msi ou .exe e avance as etapas do instalador.
 
-## 2. Verificação das variáveis de ambiente
+## 3. Verificação das variáveis de ambiente
 Abra o prompt de comando e digite
 
 ```DOS
@@ -69,10 +69,10 @@ Edite a variável Path e adicione o item %JAVA_HOME%\bin.
 - Vai em *Variáveis de usuário para...*
 - Procure *Path* e clique em editar
 - Clique em *Novo*
-- Adicione *%JAVA_HOME%\bin*4
-- Click em OK nas diferentes Janela até fechar *Propriedades do sistema*
+- Adicione *%JAVA_HOME%\bin*
+- Click em OK nas diferentes janela até fechar *Propriedades do sistema*
 
-## 3. Instalando a extensão de Java no VSCODE
+## 4. Instalando a extensão de Java no VSCODE
 
 - Abra o Visual Studio Code (VSCODE)
 - No painel esquerdo procure *Extensões*
@@ -80,7 +80,7 @@ Edite a variável Path e adicione o item %JAVA_HOME%\bin.
 - Instale a extensão
 - Após da instalação, reinicie o VSCODE
 
-## 4. Verificação
+## 5. Verificação
 - Crie um diretorio para os arquivos de Java
 - Crie um arquivo de java do tipo classe e nomeie como *MinhaClasse*
 - Cole e copie o seguinte código
