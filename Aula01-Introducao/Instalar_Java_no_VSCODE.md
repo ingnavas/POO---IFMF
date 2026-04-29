@@ -51,7 +51,7 @@ Caso contrario o retorno é o mesmo comando digitado
 ```DOS
 echo %JAVA_HOME%
 ```
-e neste caso deve se proceder a configura a variável de ambiente nas *propiedades do sistema* da seguinte forma:
+e neste caso deve se proceder a configura a variável de ambiente nas *Propiedades do sistema* da seguinte forma:
 
 - Pressione as teclas Windows + R simultaneamente.
 - Na caixa que abrir, digite exatamente: sysdm.cpl
@@ -69,7 +69,30 @@ Edite a variável Path e adicione o item %JAVA_HOME%\bin.
 - Vai em *Variáveis de usuário para...*
 - Procure *Path* e clique em editar
 - Clique em *Novo*
-- Adicione *%JAVA_HOME%\bin*
-- 
-- 
+- Adicione *%JAVA_HOME%\bin*4
+- Click em OK nas diferentes Janela até fechar *Propriedades do sistema*
+
+## 3. Instalando a extensão de Java no VSCODE
+
+- Abra o Visual Studio Code (VSCODE)
+- No painel esquerdo procure *Extensões*
+- Procure o *Extension Pack for Java* de autoria *Microsoft*
+- Instale a extensão
+- Após da instalação, reinicie o VSCODE
+
+## 4. Verificação
+- Crie um diretorio para os arquivos de Java
+- Crie um arquivo de java do tipo classe e nomeie como *MinhaClasse*
+- Cole e copie o seguinte código
+```java
+public class MinhaClasse {
+    public static void main(String[] args){
+        System.out.println("Olá mundo");      
+    }
+}
+```
+- Execute o programa e se mostra o texto a instalação foi bem sucedida.
+
+
+
 
