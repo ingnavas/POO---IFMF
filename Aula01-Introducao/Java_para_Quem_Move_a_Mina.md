@@ -496,10 +496,57 @@ antes de um nextLine(), faça:
 entrada.nextLine();
 ```
 
-para consumir o *enter* residual
+para consumir o *enter* residual, sendo que os *enter* no acumulam se tem vários nextInt() prévios a uma leitura de string e assim só deve limpar o último.
+
+Assim, execute agora
+
+```java
+import java.util.*;
+public class EntradaDados {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        String nomeEscavadeira;
+        int capacidadeEscavadeira;
+        System.out.print("Entre com a capacidade de carga por ciclo: ");
+        capacidadeEscavadeira = entrada.nextInt();
+        entrada.nextLine();       
+        System.out.print("Entre com a identificação da escavadeira: ");
+        nomeEscavadeira = entrada.nextLine();
+
+        System.out.print("Escavadeira " + nomeEscavadeira + " com capacidade no ciclo de "+ capacidadeEscavadeira + " toneladas" );
+        entrada.close();
+    }
+}
+````
 
 
 </details> 
+
+### 🧔 Exercícios
+
+---
+
+*Exercício 5*
+
+Repeta o exercício 2 usando entrada de dados por teclado. 
+
+*Exercício 6*
+
+A mina decidiu fazer um levantamento em relação aos ativos de caminhoes que ela possue sendo que ela das marcas Komatsu, Caterpillar e XCMG. Faça um programa referente aos 15 caminhoes que a empresa possui. 
+Para cada caminhão deverá ser lida:
+- A identificação dada como MOP-XXX representa identificação intera;
+- A marca do caminão e modelo;
+- Os kilometros rodados do caminhão;
+- A capacidade de carga em toneladas;
+- O ano de fabricação;
+- A idade média do parque de caminhoes da empresa;
+- Um estatus de uso que é:
+  * "activo sem manutenção programada" se  o camihão tem menos de 5 anos de uso;
+  * "ativo para manutenção" se o caminhão tem entre 5 e 7 anos;
+  * "em manutenção" se o caminhão tem mais de 7 anos.
+
+
+
 
 
 
