@@ -110,5 +110,42 @@ public class Alunos {
 
 ```
 
-i
-A sintaxe da classe posterioremente estaremos aprendedo na medida das explicações e uso. Inicialmente esta será usada de forma padrão como
+A classe anterior é chamada por
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       
+        Scanner teclado = new Scanner(System.in);
+        Alunos aluno= new Alunos();
+        int matricula=0;
+
+        System.out.print("Digite o nome do aluno: ");
+        //String nomeAluno = teclado.nextLine();
+        aluno.setNomeAluno(teclado.nextLine());
+
+        System.out.print("Digite a matricula : ");
+        if (teclado.hasNextInt()) {
+            matricula = teclado.nextInt();
+            teclado.nextLine();
+        } else {
+            System.out.println("Valor inválido!");
+            matricula=-1;
+        }
+
+        aluno.setMatriculaAluno(matricula);
+       
+
+        System.out.println("Aluno cadastrado: " + aluno.getNomeAluno()
+    + " /com matricula numero: " + String.valueOf(aluno.getMatriculaAluno()) );
+
+        teclado.close();
+        
+    }
+
+}
+
+```
+
